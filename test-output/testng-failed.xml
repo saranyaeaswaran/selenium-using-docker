@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FirstTest(failed)">
+    <classes>
+      <class name="dockerDemo.dockerDemo.ChromeDockerTest">
+        <methods>
+          <include name="runChromeTestOnDocker"/>
+        </methods>
+      </class> <!-- dockerDemo.dockerDemo.ChromeDockerTest -->
+    </classes>
+  </test> <!-- FirstTest(failed) -->
+  <test thread-count="5" name="SecondTest(failed)">
+    <classes>
+      <class name="dockerDemo.dockerDemo.FirefoxDockerTest">
+        <methods>
+          <include name="runFFTestOnDocker"/>
+        </methods>
+      </class> <!-- dockerDemo.dockerDemo.FirefoxDockerTest -->
+    </classes>
+  </test> <!-- SecondTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

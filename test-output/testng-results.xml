@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-05-04T10:49:29Z" name="Suite" finished-at="2019-05-04T10:50:26Z" duration-ms="56585">
+    <groups>
+    </groups>
+    <test started-at="2019-05-04T10:49:29Z" name="FirstTest" finished-at="2019-05-04T10:50:15Z" duration-ms="46424">
+      <class name="dockerDemo.dockerDemo.ChromeDockerTest">
+        <test-method signature="runChromeTestOnDocker()[pri:0, instance:dockerDemo.dockerDemo.ChromeDockerTest@1a84f40f]" started-at="2019-05-04T10:49:29Z" name="runChromeTestOnDocker" finished-at="2019-05-04T10:50:15Z" duration-ms="46378" status="FAIL">
+          <exception class="java.lang.IllegalMonitorStateException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalMonitorStateException
+at java.base/java.lang.Object.wait(Native Method)
+at dockerDemo.dockerDemo.ChromeDockerTest.runChromeTestOnDocker(ChromeDockerTest.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalMonitorStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runChromeTestOnDocker -->
+      </class> <!-- dockerDemo.dockerDemo.ChromeDockerTest -->
+    </test> <!-- FirstTest -->
+    <test started-at="2019-05-04T10:50:16Z" name="SecondTest" finished-at="2019-05-04T10:50:26Z" duration-ms="9958">
+      <class name="dockerDemo.dockerDemo.FirefoxDockerTest">
+        <test-method signature="runFFTestOnDocker()[pri:0, instance:dockerDemo.dockerDemo.FirefoxDockerTest@1460a8c0]" started-at="2019-05-04T10:50:16Z" name="runFFTestOnDocker" finished-at="2019-05-04T10:50:26Z" duration-ms="9942" status="FAIL">
+          <exception class="java.lang.IllegalMonitorStateException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalMonitorStateException
+at java.base/java.lang.Object.wait(Native Method)
+at dockerDemo.dockerDemo.FirefoxDockerTest.runFFTestOnDocker(FirefoxDockerTest.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalMonitorStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runFFTestOnDocker -->
+      </class> <!-- dockerDemo.dockerDemo.FirefoxDockerTest -->
+    </test> <!-- SecondTest -->
+  </suite> <!-- Suite -->
+</testng-results>
